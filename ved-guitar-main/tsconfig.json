@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "outDir": "max-air-guitar/www/dist",
+        "baseUrl": ".",
+        "paths": {
+        "*": ["node_modules/*"]
+        }
+    },
+    "include": [
+        "ts/**/*"
+    ]
+}
